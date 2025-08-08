@@ -1,7 +1,3 @@
-  export default function Home() {
-  return (
-   <div>
-    portfolio frontend (test deploy)
-   </div>
-  );
+export default function Home() {
+  return <div>portfolio frontend (test deploy)</div>;
 }
