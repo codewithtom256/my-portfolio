@@ -23,16 +23,24 @@ export default function NavBar() {
       <div className="flex space-x-16 items-center">
         <ul className={`flex space-x-4 text-md  ${winkySans.className}`}>
           <li>
-            <Link href="/projects">Projects</Link>
+            <Link href="/projects" className="leading-none">
+              Projects
+            </Link>
           </li>
           <li>
-            <Link href="/blog">Blog</Link>
+            <Link href="/blog" className="leading-none">
+              Blog
+            </Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/about" className="leading-none">
+              About
+            </Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact" className="leading-none">
+              Contact
+            </Link>
           </li>
         </ul>
         <div>

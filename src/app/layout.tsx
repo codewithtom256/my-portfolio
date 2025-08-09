@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Code With Tom",
@@ -19,6 +20,7 @@ export default function RootLayout({
         <div className="container mx-auto h-screen max-w-3xl">
           <NavBar />
           {children}
+          <Footer />
         </div>
       </body>
     </html>
